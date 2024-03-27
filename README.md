@@ -4,5 +4,7 @@
 ## 📌 규칙
 - 하루에 1문제씩 풀기<br>
 - 레벨별로 기록 남기기<br>
-- 언어: JavaScript 사용
+- 언어: JavaScript 사용<br>
+- 풀이과정은 블로그에 기록하기<br>
+  👉🏻 [내 블로그](https://hye-story-o0o.tistory.com/)
 <br>
