@@ -64,3 +64,11 @@ function solution(rny_string) {
   return rny_string.split('m').join('rn');
 }
 
+
+// 24-04-29 (월)
+/*
+  5. 특정한 문자를 대문자로 바꾸기
+*/
+function solution(my_string, alp) {  
+  return my_string.replaceAll(alp, alp.toUpperCase());
+}
