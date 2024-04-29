@@ -55,3 +55,12 @@ function solution(arr) {
   return X;
 }
 
+
+// 24-04-29 (월)
+/*
+  4. rny_string
+*/
+function solution(rny_string) {
+  return rny_string.split('m').join('rn');
+}
+
