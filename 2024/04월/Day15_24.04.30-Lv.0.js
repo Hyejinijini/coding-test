@@ -40,3 +40,18 @@ function solution(myString) {
 function solution(myString) {
   return myString.toUpperCase();
 }
+
+
+// 24-04-30 (화)
+/*
+  5. 원하는 문자열 찾기
+*/
+function solution(myString, pat) {
+    
+  if(myString.toLowerCase().includes(pat.toLowerCase())) {
+      return 1;
+  } else {
+      return 0;
+  }
+  
+}
