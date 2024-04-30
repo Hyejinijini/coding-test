@@ -22,3 +22,13 @@ function solution(strArr) {
   }
   return strArr;
 }
+
+
+// 24-04-30 (화)
+/*
+  3. 소문자로 바꾸기
+*/
+function solution(myString) {
+  return myString.toLowerCase();
+}
+
