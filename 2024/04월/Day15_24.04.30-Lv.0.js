@@ -32,3 +32,11 @@ function solution(myString) {
   return myString.toLowerCase();
 }
 
+
+// 24-04-30 (화)
+/*
+  4. 대문자로 바꾸기
+*/
+function solution(myString) {
+  return myString.toUpperCase();
+}
