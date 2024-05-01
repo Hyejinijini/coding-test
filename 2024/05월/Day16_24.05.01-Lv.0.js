@@ -27,3 +27,17 @@ function solution(num_list, n) {
   return answer;
 }
 
+
+// 24-05-01 (수)
+/*
+  3. n 번째 원소부터
+*/
+function solution(num_list, n) {
+  let answer = [];
+  
+  for (let i = n-1; i < num_list.length; i++) {
+      answer.push(num_list[i]);
+  }
+  
+  return answer;
+}
