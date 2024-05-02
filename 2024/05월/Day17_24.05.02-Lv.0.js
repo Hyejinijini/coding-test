@@ -30,3 +30,17 @@ function solution(start_num, end_num) {
   return answer;
 }
 
+
+// 24-05-02 (목)
+/*
+  3. 배열 만들기 1
+*/
+function solution(n, k) {
+  let answer = [];
+  
+  for (let i = k; i <= n; i+=k) {
+      answer.push(i);
+  }
+
+  return answer;
+}
