@@ -17,6 +17,7 @@ function solution(num_list) {
   }
 }
 
+
 // 24-05-08 (수)
 /*
   2. 홀짝에 따라 다른 값 반환하기
@@ -37,3 +38,11 @@ function solution(n) {
   }
 }
 
+
+// 24-05-08 (수)
+/*
+  3. 공배수
+*/
+function solution(number, n, m) {
+  return (number % n === 0) && (number % m === 0) ? 1 : 0; 
+}
