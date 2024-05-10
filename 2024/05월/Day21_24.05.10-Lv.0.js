@@ -12,3 +12,18 @@ function solution(a, b) {
   }
 }
 
+// 24-05-10 (금)
+/*
+  2. 꼬리 문자열
+*/
+function solution(str_list, ex) {
+  let answer = '';
+  
+  for (let i = 0; i < str_list.length; i++) {
+      if (!str_list[i].includes(ex)) {
+          answer += str_list[i];
+      }   
+  }
+  return answer;
+}
+
