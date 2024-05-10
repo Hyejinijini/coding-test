@@ -27,3 +27,10 @@ function solution(str_list, ex) {
   return answer;
 }
 
+// 24-05-10 (금)
+/*
+  3. 정수 찾기
+*/
+function solution(num_list, n) {
+  return num_list.includes(n) ? 1 : 0;
+}
