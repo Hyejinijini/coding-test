@@ -13,3 +13,11 @@ function solution(my_string) {
 function solution(arr, delete_list) {
   return arr.filter(v => !delete_list.includes(v));
 }
+
+// 24-05-14 (화)
+/*
+  3. 할 일 목록
+*/
+function solution(todo_list, finished) {
+  return todo_list.filter((v,i) => !finished[i]);
+}
