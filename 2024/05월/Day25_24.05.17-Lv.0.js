@@ -18,3 +18,17 @@ function solution(arr, idx) {
   }
   return -1;
 }
+
+// 24-05-17 (금)
+/*
+  3. 세로 읽기
+*/
+function solution(my_string, m, c) {
+  let answer = '';
+  
+  for (let i = c-1; i < my_string.length; i+=m) {
+    answer += my_string[i];
+  }
+  
+  return answer;
+}
