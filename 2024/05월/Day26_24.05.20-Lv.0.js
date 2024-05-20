@@ -23,3 +23,21 @@ function solution(my_string) {
   } 
   return answer.sort()
 }
+
+// 24-05-20 (월)
+/*
+  3. 콜라츠 수열 만들기
+*/
+function solution(n) {
+  let answer = [];
+  while (n !== 1) {
+    answer.push(n)
+    if (n%2 === 0) {
+        n /= 2;
+    } else if (n%2 === 1) {
+        n = 3*n+1;
+    }
+  }
+  answer.push(1);
+  return answer;
+}
