@@ -25,3 +25,19 @@ function solution(arr, flag) {
   
   return answer;
 }
+
+// 24-05-21 (화)
+/*
+  3. 글자 지우기
+*/
+function solution(my_string, indices) {
+  let answer = "";
+
+  for (let i = 0; i < my_string.length; i++) {
+    if (!indices.includes(i)) {
+      answer += my_string[i];
+    }
+  }
+  
+  return answer;
+}
