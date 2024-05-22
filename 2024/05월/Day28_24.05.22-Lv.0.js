@@ -10,3 +10,17 @@ function solution(my_string, s, e) {
   return arr1 + arr2 + arr3;
 }
 
+
+// 24-05-22 (수)
+/*
+  2. 문자열 섞기
+*/
+function solution(str1, str2) {
+  let answer = '';
+  
+  for(let i = 0; i < str1.length; i++) {
+    answer += str1[i] + str2[i];
+  }
+  
+  return answer;
+}
