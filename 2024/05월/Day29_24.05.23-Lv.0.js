@@ -24,3 +24,18 @@ function solution(my_string, overwrite_string, s) {
   return str.join("");
 }
 
+
+// 24-05-23 (목)
+/*
+  3. qr code
+*/
+function solution(q, r, code) {
+  let answer = [];
+  const newCode = [...code];
+  for (let i = 0; i < newCode.length; i++) {
+    if (i % q === r) {
+      answer.push(newCode[i]);
+    }
+  }
+  return answer.join('');
+}
