@@ -13,3 +13,14 @@ function solution(ineq, eq, n, m) {
   return 0;
 }
 
+
+// 24-05-23 (목)
+/*
+  2. 문자열 겹쳐쓰기
+*/
+function solution(my_string, overwrite_string, s) {
+  const str = [...my_string];
+  str.splice(s, overwrite_string.length, overwrite_string);
+  return str.join("");
+}
+
