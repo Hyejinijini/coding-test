@@ -122,3 +122,28 @@ rl.on('line', function (line) {
   n%2 === 0 ? console.log(`${n} is even`) : console.log(`${n} is odd`);
 });
 
+
+//24-05-25 (토)
+/*
+  7. 대소문자 바꿔서 출력하기
+*/
+const readline = require('readline');
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+let input = [];
+
+rl.on('line', function (line) {
+  input = [line];
+}).on('close',function(){
+  str = input[0];
+  let arr = [];
+  str.split('');
+  for (let i = 0; i < str.length; i++) {
+    arr.push(str[i] === str[i].toUpperCase() ? str[i].toLowerCase() : str[i].toUpperCase());
+  }
+  console.log(arr.join(''));
+});
+
