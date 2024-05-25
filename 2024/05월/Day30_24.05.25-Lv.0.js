@@ -147,3 +147,18 @@ rl.on('line', function (line) {
   console.log(arr.join(''));
 });
 
+
+//24-05-25 (토)
+/*
+  8. 특수문자 출력하기
+*/
+const readline = require('readline');
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+rl.on('close', function () {
+  console.log(`!@#$%^&*(\\'"<>?:;`);
+});
+
