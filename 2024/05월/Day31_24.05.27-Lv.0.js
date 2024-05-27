@@ -24,3 +24,11 @@ function solution(num1, num2) {
   return (num1 * num2);
 }
 
+
+// 24-05-27 (월)
+/*
+  4. 몫 구하기
+*/
+function solution(num1, num2) {   
+  return parseInt(num1 / num2);
+}
