@@ -15,3 +15,15 @@ function solution(num1, num2) {
   return (num1 === num2) ? 1 : -1;
 }
 
+
+// 24-05-28 (화)
+/*
+  3. 배열 두 배 만들기
+*/
+function solution(numbers) {
+  let answer = [];
+  for (let i = 0; i < numbers.length; i++) {
+    answer.push(numbers[i]*2);
+  }
+  return answer;
+}
