@@ -9,3 +9,12 @@ function solution(angle) {
   if (angle === 180) return 4;
 }
 
+
+// 24-05-30 (목)
+/*
+  2. 양꼬치
+*/
+function solution(n, k) {
+  return (n*12000 + ((k - parseInt(n*0.1))*2000));
+}
+
