@@ -24,3 +24,14 @@ function solution(numbers) {
 
   return answer;
 }
+
+/*
+  3. 나누어 떨어지는 숫자 배열
+*/
+function solution(arr, divisor) {
+  let answer = [];
+
+  arr.map((num) => num % divisor === 0 && answer.push(num));
+
+  return answer.length ? answer.sort((a, b) => a - b) : [-1];
+}
